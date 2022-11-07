@@ -18,7 +18,7 @@ Spécialiste dans le traitement de l'air ainsi que la génie thermique et climat
 
 ##### Expériences précédentes
 
-Réalisation d’audit, de mesures, d’études, de modélisation des process de fabrication, d’utilities et des bâtiments de peinture (budget énergies de 4 Million d'euros par an).
+Réalisation d’audit, de mesures, d’études, de modélisation des process de fabrication, d’utilities et des bâtiments de peinture (budget énergies de 4 M€ / an).
 
 Gestion de la protection de l’environnement industrielle, réalisation de la veille règlementaire, des contrôles et le suivi des installations.
 
