@@ -49,7 +49,7 @@ Chauffage Ventilation Climatisation · Traitement de surface · Traitement de l'
 
 ---
 # Manager - Equipe maintenance
-Avril 2005 - Janvie 2012 · 6 ans
+Avril 2005 - Janvier 2012 · 6 ans
 
 Responsable d'équipe de maintenance préventive et curative jusqu'à 20 personnes.
 
