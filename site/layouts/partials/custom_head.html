@@ -1,0 +1,141 @@
+<!-- A partial to be overwritten by the user.
+     Its content will appear before the closing </head>-tag -->
+
+<!-- Custom CSS via inline styles
+     You may use this template to add custom CSS to your site like so: -->
+
+ <style>
+     /* Links */
+     a:hover {
+         color: #e65a14;
+     }
+
+     /* Header Buttons on Startpage */
+     a.btn {
+         color: white;
+          background-color: #e65a14;
+     }
+     a.btn:hover {
+          background-color: #f48d5a;
+     }
+
+     /* Scroll Menu on Startpage */
+     a.fn-item.active {
+          color: #e65a14;
+     }
+     a.fn-item:hover {
+          color: #f48d5a;
+     }
+
+     /* Content / Sections */
+     .post-holder.odd {
+          background: #58900f;
+
+          background: rgb(93,142,13);
+          background: linear-gradient(4deg, rgba(93,142,13,1) 0%, rgba(241,213,116,1) 91%, rgba(240,212,115,1) 100%);
+  /*
+          background: rgb(7,11,14);
+          background: linear-gradient(18deg, rgba(7,11,14,1) 0%, rgba(145,97,86,1) 99%, rgba(255,235,236,1) 100%, rgba(252,231,230,1) 100%);          
+
+         background: rgb(20,40,42);
+          background: linear-gradient(45deg, rgba(20,40,42,1) 0%, rgba(58,48,46,1) 48%, rgba(133,113,116,1) 99%, rgba(85,64,61,1) 100%);
+*/
+
+/* cover 4 */
+background: rgb(66,49,43);
+background: linear-gradient(24deg, rgba(66,49,43,1) 0%, rgba(133,43,22,1) 62%, rgba(205,125,22,1) 100%);
+
+/* cover 1 */
+
+/*  background: rgb(44,56,80);
+background: linear-gradient(30deg, rgba(44,56,80,1) 0%, rgba(25,45,69,1) 50%, rgba(52,71,98,1) 84%);  */
+
+          color: #212121;
+          color: #e3e3e3;
+     }
+     .post-holder {
+          background: #212121;
+          color: #c6c6c6;
+     }
+     body {
+          background: #212121;          
+          color: #3A4145;
+          color: #c6c6c6;
+     }
+     .page .post-title {
+         color: white;
+     }
+     .page .post-header {
+       background:#111010;
+       padding:1em;
+       border-radius: 8px;
+       margin-bottom: 2em;
+
+     }
+     .post-content h1 {
+          color: #e65a14;
+          font-size:4rem;
+      }
+     #TableOfContents ol {
+          font-size:0.8em;
+     }
+
+     h5, h2 {
+          color:white
+     }
+
+
+     /* Footer */
+     .site-footer {
+          color: #878787;
+          background-color: #212121;
+     }
+     img {
+          border-radius: 8px;
+     }
+     .blog-title {
+          color: white;
+          font-size:3.5em;
+          -webkit-text-stroke-width: 1px;
+          -webkit-text-stroke-color: black;
+     }
+     .blog-description {
+          color: white;
+          background:#3a41454d;
+          border-radius:10px;
+          padding:1em;
+     }
+</style>
+
+<!-- Custom CSS via "custom.css"-file
+     If you would rather place your custom CSS into
+     a separate file, create a "custom.css" in your
+     local "static/css"-directory. Then add a <link>-tag
+     referencing your "custom.css" like so: -->
+
+<!-- <link rel="stylesheet" href='{{ "css/custom.css" | absURL }}'> -->
+
+<!-- Custom CSS: Color Codes
+     You may checkout https://htmlcolorcodes.com/ to get those
+     weird color codes (like "#22343A") ;-). -->
+
+<!-- Custom link-tags for different icons
+     Generated via https://favicon.io/favicon-generator/ -->
+
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="{{ "images/apple-touch-icon.png" | absURL }}"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="{{ "images/favicon-32x32.png" | absURL }}"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="16x16"
+  href="{{ "images/favicon-16x16.png" | absURL }}"
+/>
