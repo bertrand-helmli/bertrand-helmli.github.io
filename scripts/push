@@ -1,6 +1,8 @@
 #!/bin/bash
 
-./site/hugo
+cd ./site
+hugo
+cd ..
 git add .
 git commit -m "$1"
 git push
