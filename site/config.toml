@@ -9,7 +9,7 @@ defaultContentLanguage = "fr"
 theme = "scroll"
 
 # The "title" of your website
-title = "Bertrand Helmli - Expert technique"
+title = "BHM2E - Consulting"
 
 publishDir = "../docs"
 
@@ -34,12 +34,12 @@ publishDir = "../docs"
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and
     # https://gohugo.io/templates/internal#open-graph.
-    images = ["images/cover-image.jpg"]
+    images = ["images/logo-cover.jpg"]
 
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "BHM2E Consluling"
+    title = "BHM2E Consulting"
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)

@@ -12,11 +12,27 @@
 
      /* Header Buttons on Startpage */
      a.btn {
-         color: white;
-          background-color: #e65a14;
+          position: relative;
+          color: white;
+          background-image: linear-gradient(30deg, rgb(47, 128, 182) 0%, rgb(182, 193, 32) 100%);     
+          z-index: 1;
      }
-     a.btn:hover {
-          background-color: #f48d5a;
+     a.btn::before {
+          position: absolute;
+          content: "";
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-image: linear-gradient(30deg, rgb(0, 153, 255) 0%, rgb(238, 255, 0) 100%);     
+          z-index: -1;
+          transition: opacity 0.5s linear;
+          opacity: 0;
+          border-radius:6px;
+     }
+     a.btn:hover::before{
+          opacity: 1;
+          
      }
 
      /* Scroll Menu on Startpage */
@@ -28,55 +44,66 @@
      }
 
      /* Content / Sections */
+     .post-title,
+     .page h1,
      .post-holder.odd {
           background: #58900f;
-
+          /*
           background: rgb(93,142,13);
           background: linear-gradient(4deg, rgba(93,142,13,1) 0%, rgba(241,213,116,1) 91%, rgba(240,212,115,1) 100%);
-  /*
+
           background: rgb(7,11,14);
           background: linear-gradient(18deg, rgba(7,11,14,1) 0%, rgba(145,97,86,1) 99%, rgba(255,235,236,1) 100%, rgba(252,231,230,1) 100%);          
 
-         background: rgb(20,40,42);
+          background: rgb(20,40,42);
           background: linear-gradient(45deg, rgba(20,40,42,1) 0%, rgba(58,48,46,1) 48%, rgba(133,113,116,1) 99%, rgba(85,64,61,1) 100%);
-*/
 
-/* cover 4 */
-background: rgb(66,49,43);
-background: linear-gradient(24deg, rgba(66,49,43,1) 0%, rgba(133,43,22,1) 62%, rgba(205,125,22,1) 100%);
+          background: rgb(66,49,43);
+          background: linear-gradient(24deg, rgba(66,49,43,1) 0%, rgba(133,43,22,1) 62%, rgba(205,125,22,1) 100%);
 
-/* cover 1 */
+          background: rgb(44,56,80);
+          background: linear-gradient(30deg, rgba(44,56,80,1) 0%, rgba(25,45,69,1) 50%, rgba(52,71,98,1) 84%);  
+          */
+          background: rgb(56, 182, 255);
+          background: linear-gradient(45deg, rgba(56, 182, 255,1) 0%, rgba(126, 217, 87,1) 100%);          
 
-/*  background: rgb(44,56,80);
-background: linear-gradient(30deg, rgba(44,56,80,1) 0%, rgba(25,45,69,1) 50%, rgba(52,71,98,1) 84%);  */
-
-background: rgb(27,169,181);
-background: linear-gradient(94deg, rgba(27,169,181,1) 0%, rgba(170,255,0,1) 100%);
-
-          color: #212121;
-          color: #e3e3e3;
      }
      .post-holder {
           background: #212121;
           color: #c6c6c6;
      }
+
+     .post-holder.odd, .post-holder.odd h2 {
+          color: #212121;
+     }    
+
+     .vertical {
+     vertical-align: bottom;
+     padding:2em
+}
      body {
           background: #212121;          
           color: #3A4145;
           color: #c6c6c6;
      }
-     .page .post-title {
-         color: white;
+     .post-title,
+     .page h1 {
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
      }
+
+     .post-holder.odd .post-title {
+          background: transparent;
+          -webkit-background-clip: border-box;
+          -webkit-text-fill-color: #3A4145;
+     }
+
      .page .post-header {
-       background:#111010;
-       padding:1em;
-       border-radius: 8px;
        margin-bottom: 2em;
+       text-align: left;
 
      }
      .post-content h1 {
-          color: #e65a14;
           font-size:4rem;
       }
      #TableOfContents ol {
@@ -107,6 +134,10 @@ background: linear-gradient(94deg, rgba(27,169,181,1) 0%, rgba(170,255,0,1) 100%
           background:#3a41454d;
           border-radius:10px;
           padding:1em;
+     }
+
+     .page-logo {
+          width:100%;
      }
 </style>
 
