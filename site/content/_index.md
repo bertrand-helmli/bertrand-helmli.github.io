@@ -1,5 +1,5 @@
 ---
-header_image: "images/logo-black.jpg"
+header_image: ""
 header_headline: ""
 header_subheadline: ""
 ---
