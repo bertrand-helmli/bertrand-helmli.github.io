@@ -9,7 +9,7 @@ defaultContentLanguage = "fr"
 theme = "scroll"
 
 # The "title" of your website
-title = "BHM2E - Consulting"
+title = "BHM2E Consulting"
 
 publishDir = "../docs"
 
