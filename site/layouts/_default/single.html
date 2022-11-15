@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <main class="content page-template page-{{ .Slug }}" role="main">
+    <article class="post page">
+      <a name="top"></a>
+      <header class="post-header">
+        <a id="blog-logo" href="{{ "/" | relURL }}" alt="Retour">
+          <img class="page-logo" src="/images/logo-black.jpg"/ alt="Retour vers {{ .Site.Title }}">
+        </a>
+      </header>
+      <h1 class="post-title">{{ .Title }}</h1>
+      {{ if .Params.toc }}
+      <aside>
+        {{ .TableOfContents }}
+      </aside>
+      {{ end }}
+      <section class="post-content">
+        {{ .Content }}
+      </section>
+    </article> 
+  </main>
+{{ end }}

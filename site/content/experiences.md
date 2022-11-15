@@ -1,6 +1,8 @@
 ---
 title: "Expérience"
+toc: true
 ---
+
 
 ---
 # Spécialiste en efficacité énergétique
@@ -18,6 +20,8 @@ Au sein du service technique de l'usine de peinture du site de production mulhou
 **Compétences** 
 
 Management énergie · Amélioration des processus · Modélisation des données · Microsoft Excel · Gestion de projet · Audit · Analyse de données
+
+[{{< icons class="fa-solid fa-level-up" >}} Sommaire]({{< relref "#top" >}})
 
 ---
 # Spécialiste en gestion de l'environnement industrielle
@@ -37,6 +41,8 @@ Chargé de l'environnement, mes missions sont les suivantes :
 
 Amélioration des processus · Leadership d’équipe transverse · Évaluation environnementale · Conformité environnementale · Politique environnementale · Audit · Analyse des exigences
 
+[{{< icons class="fa-solid fa-level-up" >}} Sommaire]({{< relref "#top" >}})
+
 ---
 # Spécialiste aéraulique et thermique
 Février 2012 - Présent
@@ -46,6 +52,8 @@ Conditionnement bâtiment et process et système thermique bâtiment et process.
 **Compétences**
 
 Chauffage Ventilation Climatisation · Traitement de surface · Traitement de l'air · Gestion de maintenance assistée par ordinateur (GMAO)
+
+[{{< icons class="fa-solid fa-level-up" >}} Sommaire]({{< relref "#top" >}})
 
 ---
 # Manager - Equipe maintenance
@@ -61,9 +69,13 @@ Responsable d'équipe de maintenance préventive et curative jusqu'à 20 personn
 
 Autonomie · Management · Leadership d’équipe
 
+[{{< icons class="fa-solid fa-level-up" >}} Sommaire]({{< relref "#top" >}})
+
 ---
 # Technicien de maintenance process industriel et TPM
 Avril 2000 - Mars 2005 · 5 ans
 
 * Spécialisation peinture, mastic, robotique, traitement de surface, aéraulique et thermie
 * Mise en place de rendement synthétique, de TPM (Total Productive Maintenance) et de Lean Factory
+
+[{{< icons class="fa-solid fa-level-up" >}} Sommaire]({{< relref "#top" >}})

@@ -6,7 +6,7 @@ header_menu: false
 
 ![Traitement de l'air](images/traitement-air-3.jpg)
 
-[En savoir plus](traitement-air)
+[{{< icons class="fa-solid fa-circle-info" >}} En savoir plus...](traitement-air)
 
 
 

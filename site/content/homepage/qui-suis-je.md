@@ -22,4 +22,4 @@ Réalisation d’audit, de mesures, d’études, de modélisation des process de
 
 Gestion de la protection de l’environnement industrielle, réalisation de la veille règlementaire, des contrôles et le suivi des installations.
 
-[En savoir plus](experiences)
+[{{< icons class="fa-solid fa-circle-info" >}} En savoir plus...](experiences)

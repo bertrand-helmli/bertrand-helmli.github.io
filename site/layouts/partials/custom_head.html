@@ -14,9 +14,25 @@
 
  <style>
      /* Links */
-     a:hover {
-         color: #155e89;
+     a {
+          text-decoration: none;
+          color: #38b6ff;
+      }     
+      a:hover {
+          color: #7ed957;
+      }
+     .post-holder a {
+          color: #38b6ff;
      }
+     .post-holder a:hover {
+          color: #6fcf46;
+      } 
+     .post-holder.odd a {
+          color: #143c54;
+     }
+     .post-holder.odd a:hover {
+          color: #284a1a;
+     }     
 
 
      /* Header Buttons on Startpage */
@@ -111,15 +127,16 @@
 
      .page .post-header {
        margin-bottom: 2em;
-       text-align: left;
-
+       text-align: right;
+       width:100%;
+       background-color:black;
+       border-radius:6px;
      }
      .post-content h1 {
           font-size:4rem;
       }
-     #TableOfContents ol {
-          font-size:0.8em;
-     }
+
+
 
      h5, h2 {
           color:white
@@ -147,10 +164,6 @@
           padding:1em;
      }
 
-     .page-logo {
-          width:100%;
-     }
-
      .main-nav {
           text-align:center;
           position: relative;
@@ -161,7 +174,23 @@
        margin:1em 0.2em;
      }
 
+     #TableOfContents ul {
+          font-size:0.8em;
+          padding-inline-start:0px;
+     }
+
+     #TableOfContents ul li{
+          margin-left:0px;
+     }
+
+     #TableOfContents ul span {
+          display:none;
+     }
+
+
 </style>
+
+<script src="https://kit.fontawesome.com/65eb2ba791.js" crossorigin="anonymous"></script>
 
 <!-- Custom CSS via "custom.css"-file
      If you would rather place your custom CSS into
